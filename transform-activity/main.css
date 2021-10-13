@@ -8,13 +8,17 @@ main {
   height: 90vh;
   width: 100vh;
   margin: auto;
-  transform: skewX(-10deg) rotate(-10deg);
-  display: flex;
+  transform: skewX(30deg) rotate(20deg);
+  display: inline-block;
   align-items: center;
+  transition: scale(1.25) rotate(360deg);
 }
 
 main > div {
   width: 40%;
   margin: auto;
   padding: 10%;
+}
+.info h2 {
+  transition: scale(1.25) rotate(360deg);
 }

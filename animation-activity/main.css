@@ -42,3 +42,6 @@ a {
 a:hover {
   color: ghostwhite;
 }
+#top {
+   transition: scale(1.25) rotate(360deg);
+}
